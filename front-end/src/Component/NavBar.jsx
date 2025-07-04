@@ -36,8 +36,8 @@ export default function Navbar() {
           </ul>
         </nav>
         <div>
-          <NavLink to="/add-product" className="btn btn-success">
-            Ajouter un produit
+          <NavLink to="/NewProduct" className="btn btn-success">
+            new Product
           </NavLink>
         </div>
       </header>

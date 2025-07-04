@@ -4,8 +4,7 @@ import axios from 'axios'
 import ProductDetails from './Pages/ProductDetails'
 import Home from './Pages/Home'
 import NavBar from './Component/NavBar'
-import AddProduct from './Pages/AddProduct'
-import NewProduct from './Pages/AddProduct'
+import NewProduct from './Pages/NewProduct'
 
 function App() {
   const [products, setProducts] = useState([])
@@ -22,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home products={products} />} />
         <Route path="/products/:id" element={<ProductDetails />} />
-        <Route path="/add-product" element={<NewProduct />} />
+         <Route path="/NewProduct" element={<NewProduct />} />
       </Routes>
     </>
   )
